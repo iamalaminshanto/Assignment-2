@@ -1,0 +1,127 @@
+/*--------------- 
+Fonts 
+---------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-text{
+    color: white;
+    font-size: 64px;
+    margin: 0;
+}
+.container{
+    display: flex;
+    background-color: #2D25A0;
+    height: 677px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.button{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 2px;
+    
+}
+.container img{
+    Width:556.01px;
+    Height:438px;
+}
+.players{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-items: center;
+margin-bottom: 165px;
+}
+.player{
+    width: 305px;
+    height: 474px;
+    
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-top: 27px;
+    border-radius: 11px;
+}
+.players .player img{
+    height: 256px;
+    width: 300px;
+}
+.players .player p{
+    font-weight: 400px;
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.highlights-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.highlights-area img{
+    Width:567px;
+    Height:427px;
+}
+.footer-area{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-area img{
+    Width: 483.87px;
+    height:110px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+#fb{
+    margin-right: 14px;
+    height: 32px;
+    width: 32px;
+}
+#instagram{
+    margin-right: 14px;
+    height: 32px;
+    width: 32px;
+}
+#twitter{
+    margin-right: 14px;
+    height: 32px;
+    width: 32px;
+}
+#youtube{
+    /* margin-right: 14px; */
+    height: 32px;
+    width: 32px;
+}
+
+/*---------------
+ Media Query 
+ ------------------*/
+ @media (max-width:668px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 695px;
+    }
+    .container img{
+        width: 329px;
+        height: 259.17px;
+        margin-top: 40px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-area img{
+        width: 200px;
+        height: 40px;
+    }
+ }
